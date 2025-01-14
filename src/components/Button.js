@@ -12,7 +12,7 @@ const Button = ({ color = 'Green', children }) => {
     margin: '20px 10px',
   };
 
-  return <button style={buttonStyle}>{children}Hello World</button>;
+  return <button style={buttonStyle}>{children}Hello World sub domain</button>;
 };
 
 export default Button;
