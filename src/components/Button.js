@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Button = ({ color = 'red', children }) => {
+const Button = ({ color = 'Green', children }) => {
   const buttonStyle = {
     backgroundColor: color,
     color: 'white',
@@ -9,10 +9,10 @@ const Button = ({ color = 'red', children }) => {
     borderRadius: '5px',
     cursor: 'pointer',
     fontWeight: 'bold',
-    margin: '0 10px',
+    margin: '20px 10px',
   };
 
-  return <button style={buttonStyle}>{children}Waqas Chughtai</button>;
+  return <button style={buttonStyle}>{children}Hello World</button>;
 };
 
 export default Button;
